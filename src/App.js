@@ -7,9 +7,11 @@ function App() {
   return (
     <div className="App">
       <BookContextProvider>
+        <div role="presentation/none" className="container">
         <Navbar />
         <List />
         <Form />
+        </div>
       </BookContextProvider>
     </div>
   );
